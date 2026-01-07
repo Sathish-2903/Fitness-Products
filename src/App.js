@@ -12,6 +12,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Profile from './components/Profile';
 import Cart from './components/Cart';
+import Payment from './components/Payment';
 
 function App() {
   const [user, setUser] = useState(null);
@@ -59,6 +60,10 @@ function App() {
               <Route 
                 path="/profile" 
                 element={user ? <Profile /> : <Navigate to="/" />} 
+              />
+              <Route 
+                path="/checkout" 
+                element={user ? <Payment /> : <Navigate to="/" />} 
               />
             </Routes>
           </main>

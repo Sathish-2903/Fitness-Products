@@ -1,7 +1,9 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useCart } from '../contexts/CartContext';
 
 function Cart() {
+  const navigate = useNavigate();
   const { 
     cartItems, 
     removeFromCart, 
@@ -88,7 +90,13 @@ function Cart() {
                   <button className="clear-cart" onClick={clearCart}>
                     Clear Cart
                   </button>
-                  <button className="checkout-btn">
+                  <button 
+                    className="checkout-btn"
+                    onClick={() => {
+                      toggleCart();
+                      navigate('/checkout');
+                    }}
+                  >
                     Proceed to Checkout
                   </button>
                 </div>

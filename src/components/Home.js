@@ -94,7 +94,7 @@ function Home() {
     {
       id: 1,
       name: 'Adjustable Dumbbells',
-      price: '₹24,999',
+      price: '₹4,999',
       image: '🏋️‍♂️',
       description: 'Professional adjustable dumbbells for home workouts',
       category: 'Weights'
@@ -102,7 +102,7 @@ function Home() {
     {
       id: 2,
       name: 'Yoga Mat Premium',
-      price: '₹4,199',
+      price: '₹699',
       image: '🧘‍♀️',
       description: 'High-quality non-slip yoga mat',
       category: 'Yoga'
@@ -110,7 +110,7 @@ function Home() {
     {
       id: 3,
       name: 'Resistance Bands Set',
-      price: '₹2,499',
+      price: '₹499',
       image: '💪',
       description: 'Complete resistance bands set with handles',
       category: 'Accessories'
@@ -118,7 +118,7 @@ function Home() {
     {
       id: 4,
       name: 'Treadmill Pro',
-      price: '₹1,08,999',
+      price: '₹30,000',
       image: '🏃‍♂️',
       description: 'Professional treadmill with digital display',
       category: 'Cardio'
@@ -126,7 +126,7 @@ function Home() {
     {
       id: 5,
       name: 'Kettlebell Set',
-      price: '₹16,799',
+      price: '₹2,999',
       image: '⚡',
       description: 'Cast iron kettlebell set (7kg, 11kg, 16kg)',
       category: 'Weights'
@@ -134,7 +134,7 @@ function Home() {
     {
       id: 6,
       name: 'Pull-up Bar',
-      price: '₹6,699',
+      price: '₹1,499',
       image: '🏗️',
       description: 'Doorway pull-up bar with multiple grips',
       category: 'Accessories'
@@ -142,7 +142,7 @@ function Home() {
     {
       id: 7,
       name: 'Exercise Bike',
-      price: '₹75,499',
+      price: '₹25,000',
       image: '🚴‍♀️',
       description: 'Stationary exercise bike with heart rate monitor',
       category: 'Cardio'
@@ -150,7 +150,7 @@ function Home() {
     {
       id: 8,
       name: 'Foam Roller',
-      price: '₹2,899',
+      price: '₹399',
       image: '🔧',
       description: 'High-density foam roller for muscle recovery',
       category: 'Recovery'
@@ -158,7 +158,7 @@ function Home() {
     {
       id: 9,
       name: 'Whey Protein Powder',
-      price: '₹4,999',
+      price: '₹999',
       image: '🥤',
       description: 'Whey protein powder for muscle building (2kg)',
       category: 'Supplements'
@@ -166,7 +166,7 @@ function Home() {
     {
       id: 10,
       name: 'Weight Plates Set',
-      price: '₹12,999',
+      price: '₹499',
       image: '⚙️',
       description: 'Olympic weight plates set (5kg, 10kg, 15kg, 20kg)',
       category: 'Weights'
@@ -174,7 +174,7 @@ function Home() {
     {
       id: 11,
       name: 'Yoga Blocks',
-      price: '₹899',
+      price: '₹499',
       image: '🧱',
       description: 'High-density foam yoga blocks for support',
       category: 'Yoga'
@@ -182,7 +182,7 @@ function Home() {
     {
       id: 12,
       name: 'Rowing Machine',
-      price: '₹89,999',
+      price: '₹24,999',
       image: '🚣‍♂️',
       description: 'Magnetic resistance rowing machine',
       category: 'Cardio'
@@ -190,7 +190,7 @@ function Home() {
     {
       id: 13,
       name: 'Medicine Ball',
-      price: '₹3,499',
+      price: '₹999',
       image: '⚽',
       description: 'Slam ball for functional training (8kg)',
       category: 'Functional'
@@ -198,7 +198,7 @@ function Home() {
     {
       id: 14,
       name: 'Gym Gloves',
-      price: '₹1,299',
+      price: '₹499',
       image: '🧤',
       description: 'Premium leather gym gloves with wrist support',
       category: 'Accessories'
@@ -214,7 +214,7 @@ function Home() {
     {
       id: 16,
       name: 'Pre-Workout Supplement',
-      price: '₹2,799',
+      price: '₹999',
       image: '⚡',
       description: 'Energy boost pre-workout supplement',
       category: 'Supplements'
@@ -222,7 +222,7 @@ function Home() {
     {
       id: 17,
       name: 'Olympic Barbell',
-      price: '₹18,999',
+      price: '₹4,999',
       image: '🏋️',
       description: '20kg Olympic barbell with diamond knurling',
       category: 'Weights'
@@ -230,7 +230,7 @@ function Home() {
     {
       id: 18,
       name: 'Battle Ropes',
-      price: '₹5,499',
+      price: '₹499',
       image: '🪢',
       description: 'Heavy duty battle ropes for HIIT training',
       category: 'Functional'
@@ -238,7 +238,7 @@ function Home() {
     {
       id: 19,
       name: 'Yoga Strap',
-      price: '₹699',
+      price: '₹499',
       image: '🪢',
       description: 'Cotton yoga strap for flexibility training',
       category: 'Yoga'
@@ -246,7 +246,7 @@ function Home() {
     {
       id: 20,
       name: 'Creatine Supplement',
-      price: '₹1,899',
+      price: '₹1,000',
       image: '💊',
       description: 'Pure creatine monohydrate for strength',
       category: 'Supplements'
@@ -254,7 +254,7 @@ function Home() {
     {
       id: 21,
       name: 'Elliptical Machine',
-      price: '₹1,25,999',
+      price: '₹49,999',
       image: '🏃‍♀️',
       description: 'Cross-trainer elliptical with LCD display',
       category: 'Cardio'
@@ -262,7 +262,7 @@ function Home() {
     {
       id: 22,
       name: 'Ab Wheel',
-      price: '₹1,499',
+      price: '₹399',
       image: '⭕',
       description: 'Double wheel ab roller for core strengthening',
       category: 'Functional'
@@ -270,7 +270,7 @@ function Home() {
     {
       id: 23,
       name: 'Massage Gun',
-      price: '₹8,999',
+      price: '₹999',
       image: '🔫',
       description: 'Percussion massage gun for muscle recovery',
       category: 'Recovery'
@@ -278,7 +278,7 @@ function Home() {
     {
       id: 24,
       name: 'Power Rack',
-      price: '₹85,999',
+      price: '₹245,999',
       image: '🏗️',
       description: 'Heavy-duty power rack with safety bars',
       category: 'Weights'
