@@ -4,7 +4,7 @@ import { useCart } from '../contexts/CartContext';
 
 function Payment() {
   const navigate = useNavigate();
-  const { cartItems, getCartTotal, clearCart } = useCart();
+  const { cartItems, getCartTotal } = useCart();
 
   const formatPrice = (price) => {
     return new Intl.NumberFormat('en-IN', {

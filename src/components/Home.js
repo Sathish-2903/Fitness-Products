@@ -5,16 +5,6 @@ function Home() {
   const { addToCart } = useCart();
   const [addedToCart, setAddedToCart] = React.useState(null);
 
-  const handleAddToCart = (product) => {
-    addToCart(product);
-    setAddedToCart(product.id);
-    
-    // Remove the notification after 2 seconds
-    setTimeout(() => {
-      setAddedToCart(null);
-    }, 2000);
-  };
-
   const handleShopNow = () => {
     const productsSection = document.querySelector('.products-section');
     if (productsSection) {
